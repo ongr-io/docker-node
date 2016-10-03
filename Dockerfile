@@ -7,3 +7,4 @@ RUN     npm cache clean
 RUN     npm install -g n
 RUN     n stable
 RUN     curl -L https://npmjs.org/install.sh | sh
+RUN     npm -g install gulp-cli
